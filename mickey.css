@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    margin: 100px;
+}
+
+.ear1 {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    left: 35%;
+    z-index: -1;
+}
+
+.ear2 {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    right: 35%;
+    z-index: -1;
+}
+
+.face {
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    position: absolute;
+    left: 40%;
+    top: 30px;
+    z-index: -1;
+}
+
+
+.eye-shell-1,
+.eye-shell-2 {
+    background-color: darksalmon;
+    z-index: 1;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    border-radius: 100%;
+    top: 30px;
+}
+
+.eye-shell-1 {
+    left: 45%;
+}
+
+.eye-shell-2 {
+    right: 45%;
+}
+
+.mouth-shell {
+    background-color: darksalmon;
+    z-index: 1;
+    height: 130px;
+    width: 180px;
+    position: absolute;
+    border-radius: 100%;
+    top: 120px;
+    left: 35px;
+}
